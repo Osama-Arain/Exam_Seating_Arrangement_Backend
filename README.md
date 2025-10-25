@@ -1,1 +1,1 @@
-"# Exam_Seating_Arrangement_Backend" 
+# Exam Seating Arrangement Backend Server Designed on ASP.NET Core
