@@ -1,10 +1,10 @@
-using payday_server.Repository;
-using payday_server.Views.Service;
-using payday_server.Views.Shared;
+using ESA.Repository;
+using ESA.Views.Service;
+using ESA.Views.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace payday_server.Controllers;
+namespace ESA.Controllers;
 
 [ApiController]
 [Route("api/v{version:apiVersion}/[controller]")]

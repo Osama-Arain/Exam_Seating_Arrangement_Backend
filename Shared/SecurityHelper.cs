@@ -1,12 +1,12 @@
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Views.Shared;
+using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Views.Shared;
 using Microsoft.EntityFrameworkCore;
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public static class SecurityHelper
     {
@@ -144,12 +144,13 @@ namespace payday_server.Shared
             //                             Print_permission = _UserRolePermission.Print_Permission,
             //                         }).FirstOrDefaultAsync();
             
-            if (apiResponse /*_Permission*/ == null)
-            {
-                apiResponse.statusCode = StatusCodes.Status403Forbidden.ToString();
-                apiResponse.message = "The requested action is unauthorized.";
-                return apiResponse;
-            }
+            //if (apiResponse /*_Permission*/ == null)
+            //{
+            //    apiResponse.statusCode = StatusCodes.Status403Forbidden.ToString();
+            //    apiResponse.message = "The requested action is unauthorized.";
+            //    return apiResponse;
+            //}
+
 
 
             apiResponse.statusCode = StatusCodes.Status200OK.ToString();

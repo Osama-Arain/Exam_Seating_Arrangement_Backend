@@ -1,4 +1,4 @@
-namespace payday_server.Views.Shared
+namespace ESA.Views.Shared
 {
     public class DashboardCardVireModel {
         public int TotalVisitor { get; set; }

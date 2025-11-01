@@ -1,13 +1,14 @@
-using payday_server.Processor;
-using payday_server.Processor.Admin;
-using payday_server.Processor.Payroll.Setup;
-using payday_server.Repository;
-using payday_server.Views.Shared;
-using payday_server.Repository.Report;
-using payday_server.Shared;
-using payday_server.Repository.Admin;
+using ESA.Processor;
+using ESA.Processor.Admin;
+using ESA.Processor.Payroll.Setup;
+using ESA.Repository;
+using ESA.Views.Shared;
+using ESA.Repository.Report;
+using ESA.Shared;
+using ESA.Repository.Admin;
+using ESA.Views.StudentMaster;
 
-namespace payday_server.Environment.Register
+namespace ESA.Environment.Register
 {
     public static class ServiceRegister
     {
@@ -27,9 +28,18 @@ namespace payday_server.Environment.Register
 
             services.AddScoped<Algorithms>();
 
+            #region StudentMaster
+
+            ConfigurateStudentMasterProcessor(services);
+            #endregion
+
 
         }
 
+        private static void ConfigurateStudentMasterProcessor(IServiceCollection services)
+        {
+            services.AddScoped<IProcessor<CourseBaseModel>, CourseProcessor>();
+        }
         private static void ConfigureConfigurationProcessor(IServiceCollection services)
         {
             services.AddScoped<IProcessor<UserRoleBaseModel>, UserRoleProcessor>();

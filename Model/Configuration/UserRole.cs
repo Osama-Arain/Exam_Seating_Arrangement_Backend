@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace payday_server.Model
+namespace ESA.Model
 {
     [Table ("UserRole")]
     public class UserRole {

@@ -1,5 +1,5 @@
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public class Blogic
     {

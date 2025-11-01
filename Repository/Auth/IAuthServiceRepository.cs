@@ -1,15 +1,15 @@
-using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Shared;
+using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Shared;
 using Microsoft.EntityFrameworkCore;
-using payday_server.Views.Shared;
+using ESA.Views.Shared;
 using System.Net;
 using System.Net.Sockets;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace payday_server.Repository
+namespace ESA.Repository
 {
     public interface IAuthServiceRepository
     {
@@ -120,7 +120,7 @@ namespace payday_server.Repository
 
         private async Task<string> GetGeneratedToken(object _model, string _Ip, string _PC, string _Header)
         {
-            var UserTable = (payday_server.Model.User)_model;
+            var UserTable = (ESA.Model.User)_model;
             string _key = SecurityHelper.security(UserTable.Id + UserTable.NormalizedName + UserTable.Email + DateTime.Now.ToString("ddMMMyyyyHHHmmss"));
 
             string key = _configuration["AuthSettings:Key"];

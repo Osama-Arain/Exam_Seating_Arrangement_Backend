@@ -1,15 +1,15 @@
 ﻿
-using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Model.Report;
+using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Model.Report;
 using Microsoft.EntityFrameworkCore;
-using payday_server.Shared;
-using payday_server.Views.Report;
-using payday_server.Views.Shared;
+using ESA.Shared;
+using ESA.Views.Report;
+using ESA.Views.Shared;
 using System.Security.Claims;
 using Newtonsoft.Json;
 
-namespace payday_server.Repository.Report
+namespace ESA.Repository.Report
 {
    
 

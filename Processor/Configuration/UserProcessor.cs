@@ -1,12 +1,12 @@
-using payday_server.Layers.ContextLayer;
-using payday_server.Manager;
-using payday_server.Model;
+using ESA.Layers.ContextLayer;
+using ESA.Manager;
+using ESA.Model;
 using Microsoft.EntityFrameworkCore;
-using payday_server.Shared;
-using payday_server.Views.Shared;
+using ESA.Shared;
+using ESA.Views.Shared;
 using System.Security.Claims;
 
-namespace payday_server.Processor.Payroll.Setup
+namespace ESA.Processor.Payroll.Setup
 {
     public class UserProcessor : IProcessor<UsersBaseModel>
     {

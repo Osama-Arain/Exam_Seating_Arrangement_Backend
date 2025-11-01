@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace payday_server.Views.Payroll
+namespace ESA.Views.Payroll
 {
 
     public class DepartmentBaseModel

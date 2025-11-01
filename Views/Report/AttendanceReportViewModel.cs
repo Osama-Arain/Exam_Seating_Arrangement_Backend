@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace payday_server.Views.Report
+namespace ESA.Views.Report
 {
     public class AttendanceReportViewModel
     {

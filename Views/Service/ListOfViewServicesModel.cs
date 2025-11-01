@@ -1,4 +1,4 @@
-namespace payday_server.Views.Service
+namespace ESA.Views.Service
 {
     public class ListOfViewServicesModel
     {

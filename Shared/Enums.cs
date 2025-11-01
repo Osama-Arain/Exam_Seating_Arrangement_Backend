@@ -1,13 +1,13 @@
-using payday_server.Model;
+using ESA.Model;
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public class Enums {
         public enum ModuleClassName
         {
             UserRole,
             User,
-
+            Course,
             Department,
             UserEventLogs,
           

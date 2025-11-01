@@ -1,9 +1,9 @@
 using System;
 using System.Runtime.InteropServices;
-using payday_server.Layers.ContextLayer;
+using ESA.Layers.ContextLayer;
 using Microsoft.EntityFrameworkCore;
 
-namespace payday_server.Environment.Register{
+namespace ESA.Environment.Register{
     public static class ConfigureConnection
     {
         public static void ConnectionConfigure(this IServiceCollection services)

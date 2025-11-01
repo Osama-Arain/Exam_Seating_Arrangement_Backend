@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace payday_server.Views.Shared {
+namespace ESA.Views.Shared {
     public class UserRolePermissionBaseModel {
 
     }

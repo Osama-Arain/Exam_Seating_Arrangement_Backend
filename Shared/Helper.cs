@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public static class Helper
     {

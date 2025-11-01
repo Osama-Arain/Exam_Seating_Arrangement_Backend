@@ -1,10 +1,10 @@
-﻿using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Shared;
-using payday_server.Views.Shared;
+﻿using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Shared;
+using ESA.Views.Shared;
 using System.Security.Claims;
 
-namespace payday_server.Repository.Attendance
+namespace ESA.Repository.Attendance
 {
     public interface IAttendanceManagementServiceRepository
     {

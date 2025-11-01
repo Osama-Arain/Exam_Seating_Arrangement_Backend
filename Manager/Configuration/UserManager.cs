@@ -1,11 +1,11 @@
 using System;
 using System.Security.Claims;
-using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Shared;
+using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Shared;
 using Microsoft.EntityFrameworkCore;
 
-namespace payday_server.Manager.Configuration
+namespace ESA.Manager.Configuration
 {
     public class UserManager : IManager
     {

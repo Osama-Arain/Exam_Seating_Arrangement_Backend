@@ -1,14 +1,14 @@
 using System.Reflection;
 using System;
-using payday_server.Layers.ContextLayer;
-using payday_server.Model;
-using payday_server.Shared;
+using ESA.Layers.ContextLayer;
+using ESA.Model;
+using ESA.Shared;
 using Microsoft.EntityFrameworkCore;
-using payday_server.Views.Shared;
-using payday_server.Views.Service;
+using ESA.Views.Shared;
+using ESA.Views.Service;
 using System.Security.Claims;
 
-namespace payday_server.Repository
+namespace ESA.Repository
 {
     public interface IUserSetupServiceRepository
     {

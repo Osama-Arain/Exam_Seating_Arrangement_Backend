@@ -1,6 +1,6 @@
-﻿using payday_server.Layers.ContextLayer;
+﻿using ESA.Layers.ContextLayer;
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public class Algorithms
     {

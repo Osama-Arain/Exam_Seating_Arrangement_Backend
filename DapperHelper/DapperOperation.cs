@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
-using payday_server.Views.Shared;
+using ESA.Views.Shared;
 using Dapper;
 using Microsoft.Data.SqlClient;
 
-namespace payday_server.DapperHelper
+namespace ESA.DapperHelper
 {
     public class DapperOperation
     {

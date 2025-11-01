@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using payday_server.Model;
+using ESA.Model;
 
-namespace payday_server.Model.Attendance
+namespace ESA.Model.Attendance
 {
     [Table("UserEventLogs")]
     public class UserEventLog

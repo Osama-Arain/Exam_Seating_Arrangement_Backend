@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace payday_server.Model.Report
+namespace ESA.Model.Report
 {
     [Table("PayrollReports")]
 

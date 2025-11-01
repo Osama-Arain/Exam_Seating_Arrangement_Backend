@@ -1,4 +1,4 @@
-﻿namespace payday_server.Views.Dashboard
+﻿namespace ESA.Views.Dashboard
 {
     public class ESSDashboardViewModel
     {

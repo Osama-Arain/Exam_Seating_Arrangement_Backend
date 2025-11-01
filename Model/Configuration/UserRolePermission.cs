@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
-using payday_server.Model;
+using ESA.Model;
 
-namespace payday_server.Model
+namespace ESA.Model
 {
     [Table("UsersPermissions")]
     public partial class UsersPermissions

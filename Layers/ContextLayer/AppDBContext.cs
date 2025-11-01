@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using payday_server.Model;
-using payday_server.Model.Report;
-using payday_server.Model.Attendance;
+using ESA.Model;
+using ESA.Model.Report;
+using ESA.Model.Attendance;
 
 
-namespace payday_server.Layers.ContextLayer
+namespace ESA.Layers.ContextLayer
 {
     public class AppDBContext : DbContext
     {
@@ -22,6 +22,7 @@ namespace payday_server.Layers.ContextLayer
 
         #region CONFIGURATION
         public DbSet<User> Users { get; set; }
+        public DbSet<Course> Courses { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<UsersPermissions> UsersPermissions { get; set; }
 

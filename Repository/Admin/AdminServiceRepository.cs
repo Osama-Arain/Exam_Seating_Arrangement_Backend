@@ -1,7 +1,7 @@
-﻿using payday_server.Layers.ContextLayer;
+﻿using ESA.Layers.ContextLayer;
 
 
-namespace payday_server.Repository.Admin
+namespace ESA.Repository.Admin
 {
     public interface IAdminServiceRepository
     {

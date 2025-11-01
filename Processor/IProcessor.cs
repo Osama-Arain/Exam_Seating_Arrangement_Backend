@@ -1,8 +1,8 @@
 using System;
 using System.Security.Claims;
-using payday_server.Model;
+using ESA.Model;
 
-namespace payday_server.Processor {
+namespace ESA.Processor {
     public interface IProcessor<T>
     {
         Task<ApiResponse> ProcessGet (Guid _MenuId, ClaimsPrincipal _User);

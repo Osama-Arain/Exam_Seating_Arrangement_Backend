@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace payday_server.Views.Shared
+namespace ESA.Views.Shared
 {
     public class UserRoleBaseModel {
       public int Code { get; set; }

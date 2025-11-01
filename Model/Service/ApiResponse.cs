@@ -1,5 +1,5 @@
 
-namespace payday_server.Model
+namespace ESA.Model
 {
     public class ApiResponse
     {

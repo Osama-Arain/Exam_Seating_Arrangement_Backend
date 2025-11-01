@@ -1,12 +1,12 @@
-﻿using payday_server.Layers.ContextLayer;
-using payday_server.Repository;
-using payday_server.Repository.Report;
-using payday_server.Views.Report;
+﻿using ESA.Layers.ContextLayer;
+using ESA.Repository;
+using ESA.Repository.Report;
+using ESA.Views.Report;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace payday_server.Controllers.Report
+namespace ESA.Controllers.Report
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

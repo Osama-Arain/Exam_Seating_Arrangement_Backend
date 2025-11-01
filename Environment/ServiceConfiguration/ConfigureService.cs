@@ -6,11 +6,11 @@ using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using payday_server.Shared;
+using ESA.Shared;
 using System.Text.Json;
 
 
-namespace payday_server.Environment.Register{
+namespace ESA.Environment.Register{
     public static class ConfigureService
     {
         public static void ConfigureCoresPolicy(this IServiceCollection services)

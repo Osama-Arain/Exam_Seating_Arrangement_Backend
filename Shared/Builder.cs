@@ -1,10 +1,10 @@
-using payday_server.Layers.ContextLayer;
-using payday_server.Manager;
-using payday_server.Manager.Configuration;
+using ESA.Layers.ContextLayer;
+using ESA.Manager;
+using ESA.Manager.Configuration;
 
 
 
-namespace payday_server.Shared
+namespace ESA.Shared
 {
     public static class Builder
     {
@@ -20,6 +20,10 @@ namespace payday_server.Shared
                 case Enums.ModuleClassName.User:
                     {
                         return new UserManager(_context);
+                    }
+                case Enums.ModuleClassName.Course:
+                    {
+                        return new CourseManager(_context);
                     }
 
                 default:

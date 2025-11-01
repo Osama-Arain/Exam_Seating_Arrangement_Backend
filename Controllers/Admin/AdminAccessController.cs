@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using payday_server.Model;
-using payday_server.Repository.Admin;
-using payday_server.Repository.Attendance;
+using ESA.Model;
+using ESA.Repository.Admin;
+using ESA.Repository.Attendance;
 
-using payday_server.Processor;
-using payday_server.Repository;
-using payday_server.Views.Shared;
-using payday_server.Repository.Attendance;
+using ESA.Processor;
+using ESA.Repository;
+using ESA.Views.Shared;
+using ESA.Repository.Attendance;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace payday_server.Controllers.Admin
+namespace ESA.Controllers.Admin
 {
     [ApiController]
     [Route("api/v{version:apiVersion}/[controller]")]

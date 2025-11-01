@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using payday_server.Model;
+using ESA.Model;
 
-namespace payday_server.Manager
+namespace ESA.Manager
 {
     public interface IManager
     {
